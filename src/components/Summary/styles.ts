@@ -7,10 +7,10 @@ export const Container = styled.div`
     margin-top: -10rem;
     
     div {
-        background: var(--shape);
+        background: var(--card-darkMode); // Dark Mode
         padding: 1.5rem 2rem;
         border-radius: 0.25rem;
-        color: var(--text-title);
+        color: var(--text-darkMode); // Dark Mode
 
         header {
             display: flex;

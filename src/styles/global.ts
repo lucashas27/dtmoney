@@ -12,8 +12,12 @@ export const GlobalStyle = createGlobalStyle`
         --text-title: #363F5F;
         --text-body: #969CB3;
 
-        --background: #F0F2F5;
+        --background: #242527;
         --shape: #FFFFFF;
+
+        --background-darkMode: #242527;
+        --card-darkMode: #121212;
+        --text-darkMode: #FFFFFF;
     }
 
     * {

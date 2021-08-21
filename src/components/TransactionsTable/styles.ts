@@ -18,13 +18,13 @@ export const Container = styled.div`
         td {
             padding: 1rem 2rem;
             border: 0;
-            background: var(--shape);
-            color: var(--text-body);
+            background: var(--card-darkMode); // Dark Mode
+            color: var(--text-darkMode); // Dark Mode
             border-radius: 0.25rem;
         
 
         &:first-child {
-            color: var(--text-title);
+            color: var(--text-darkMode); // Dark Mode
         }
 
         &.deposit {
